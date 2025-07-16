@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    background-color: pink;
+}
+header{
+    background-color: antiquewhite;
+    color: white;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: bullets;
+    padding: 0%;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    .text-decoration:none;
+    color:rosybrown;
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    color:darkmagenta;
+    background-color: magenta;
+    border:rounded;
+    cursor:pointer;
+    transition: 0.6s;
+}
+.btn:hover{
+    background-color: black;
+}
+footer{
+    background-color: palevioletred;
+    color:white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
